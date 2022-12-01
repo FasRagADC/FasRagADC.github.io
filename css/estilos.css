@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;text-decoration: none;
+    font-family: verdana;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    background: rgb(248, 246, 246);
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+main{
+    background-color: #333;
+
+}
+
+p{
+    color: white;
+    display: flex;
+    margin: 10px;
+    text-align: justify;
+
+}
+
+.historia{
+    text-align:center;
+}
+
+h1{
+	font-family: Times New Roman;
+	font-size: 55px;
+    color:white;
+
+}
+
+h6{
+    font-family: Times New Roman;
+	font-size: 20px;
+    color:white;
+}
+
+.h3{
+	font-family: Agency FB;
+}
+
+
+
+/*Adaptando la pagina con mediaquerys*/
+@media(max-width:1225px){
+    .container{
+        width: 95%;
+
+    }
+}
+
+@media(max-width: 1085px){
+    #main-header{
+        height: 70px;
+        line-height: 65px;
+    }
+    #logo{
+        width: 60px;
+    }
+}
+
+@media(max-width: 999px){
+    #logo{
+        width: 100%;
+        float: none;
+        margin: 0px auto;
+    }
+    #menu{
+        float: none;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width: 780px){
+    .servicio{
+        width: 70%;
+        float: none;
+        margin: 0px auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .servicio img{
+        margin-bottom: 10px;
+    }
+    .servicio p{
+        margin-top: 10px;
+    }
+}
+
+#div_form{
+	width: 49%;
+	height: 140px;
+	float: left;
+	background: black;
+	color: white;
+}
+
+
+button{
+	background-color: white;
+	color: black;
+	font-family: Agency FB;
+	font-weight: bold; 
+	padding: 5px 12px;
+	width: 100px;
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+}
+

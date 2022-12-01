@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ffo{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1px solid rgb(94, 94, 94);
+    padding: 10px 0px;
+    text-align: center;
+}
+form{
+    padding: 15px;
+    width: 50%;
+    margin: 10px auto;
+    
+}
+form  input , textarea {
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+}
+.btn-guardar{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+    box-shadow: 3px 3px 7px white;
+}
+.list-coment{
+    margin:15px  auto;
+    width: 80%;
+    
+    padding: 15px;
+}
+.it-coment{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background: linear-gradient(90deg, rgb(110, 110, 110) 0%, rgb(160, 159, 159) 35%, rgb(138, 137, 137) 100%, rgb(0, 112, 134) 100%);
+    box-shadow: 3px 3px 7px white;
+
+}
+
+.it-coment h3{
+    color: rgb(133, 133, 133);
+}
+
+.it-coment p{
+    color: white;
+    padding: 15px;
+}
+.hidden{
+    display: none;
+}
+.foe{
+    margin: 0 auto;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+footer{
+    background: linear-gradient(90deg, rgb(226, 226, 226) 0%, rgb(156, 156, 156) 51%, rgb(61, 61, 61) 100%);
+/*     background: linear-gradient(90deg, rgba(20,80,33,1) 0%, rgba(34,163,55,1) 66%, rgba(28,105,19,1) 100%);
+ */    width: 100%;
+}
+.divider{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(119, 118, 119);
+    margin: 0px auto;
+}
+.divideCuadrantes{
+    height: 1px;
+    background-color: rgb(131, 130, 130);
+    margin: 15px auto;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    background-color: black;
+    box-shadow: 3px 3px 7px rgb(119, 119, 119);
+
+    top: 0;
+    z-index: 10000;
+}
+.menu{
+    width: 100%;
+    box-shadow: 4px 4px 7px rgb(112, 112, 112);
+}
+
+.content{
+    width: 100%;
+    background-image:"img/Carrucel1.jpeg";
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    margin-top: 70px;
+}
+.content-Img{
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 30px;
+    width: 100%;
+    
+}
+.content img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.title{
+    padding: 15px;
+    color: beige;
+    text-shadow: 1px 1px 5px rgb(114, 114, 114);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+/*conten-body  cuadrantes*/
+.content_body{
+    background-color: black;
+    padding: 10px 25px;
+    text-align: center;
+}
+.imgCuadrant{
+    width: 50%;
+}
+.txtCuadrant{
+    color: aliceblue;
+    width: 50%;
+    text-align: justify;
+    padding: 10px 20px;
+}
+.imgCuadrant img{
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+}
+.tittle-cuadrantes{
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.parrafoCuadrante{
+    font-size: 25px;
+}
+.section-video{
+    background-color: black;
+    box-shadow: 3px 3px 7px rgb(189, 188, 188);
+    padding: 10px;
+}
+.comtent_personajes{
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond
+}
+/* ------ Movil------- */
+/* ------ Movil------- */
+/* ------ Movil------- */
+/* ------ Movil------ */
+/* ------ Movil------- */
+/* ------ Movil------ */
+
+@media only screen and (max-width: 767px){
+   
+    .iconos{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    .logo{
+        width: 85px;
+    }
+    .ham{
+        padding: 5px 10px;
+        font-size: 20px;
+        cursor: pointer;
+       
+    }
+    .menu{
+        display: none;
+        box-shadow: 3px 3px 7px rgb(83, 83, 83);
+    }
+    .foe{
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* Activara menu */
+    .menu.activado{
+        display: flex;
+        width: 100%;
+        margin: 0px auto;
+        background: -webkit-linear-gradient(left, rgb(196, 194, 194), rgb(15, 15, 15));
+        justify-content: end;
+    }
+    .menu.activado ul{
+        padding: 10px;
+        list-style: none;
+        text-align: end;
+        width: 100%;
+    }
+    .menu.activado ul li{
+        text-align: end;
+        width: 100%;
+    }
+    .menu.activado ul a{
+        color: aliceblue;
+        font-weight: 400;
+        font-size: 18px;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        width: 100%;
+        padding: 10px 20px;
+        letter-spacing: 3px;
+    }
+    .menu.activado ul a:hover{
+        background-color: rgba(129, 129, 129, 0.637);
+        color: rgb(211, 208, 208);
+        text-decoration: overline;
+        font-weight: 800;
+        letter-spacing: 5px;
+        border-radius: 10px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    .title{
+       font-size: 20px;
+       letter-spacing: 5px;
+    }
+    .cuadrantes{
+        background-color: black;
+        padding: 30px;
+    }
+    .cuadrant{
+        display: block;
+    }
+    .imgCuadrant{
+        width: 100%;
+    }
+    .txtCuadrant{
+        width: 100%;
+        padding: 0;
+    }
+    .tittle-cuadrantes{
+        text-shadow: 1px 1px 5px rgb(230, 228, 228);
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .parrafoCuadrante{
+        font-size: 18px;
+    }
+    
+    .deskcuado{
+        display: none;
+    }
+
+    .video frame{
+        height: 200px;
+    }
+    .tittle-personajes{
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+    }
+    .personajes{
+        width: 100%;
+    }
+    .peson_item{
+        display: block;
+       width: 90%;
+        text-align: center;
+        margin: 20px;
+        box-shadow: 1px 1px 2px  rgb(90, 90, 90);
+        /* border: solid 1px red; */
+        margin: 0px auto;
+        padding: 10px;
+    }
+    .peson_item img{
+        display: block;
+        width: 100px;
+        margin: 0px auto;
+        height: 140px;
+    }
+    .txtPerson{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .heroFinal{
+        width: 100%;
+        background-image:"img/Carrucel1";
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0ch;
+        padding: 20px;
+    }
+    .heroFinal .img img{
+       width: 25%;
+       max-height: 90px;
+       display: block;
+       margin: 0 auto;
+    }
+    .txt_HF{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        text-shadow: 3px 3px 7px black;
+        font-weight: 900;
+        letter-spacing: 5px;
+        color: aliceblue;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .btn{
+        margin: 0px auto;
+        max-width: 50%;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 20px;
+        background: linear-gradient(90deg, rgb(39, 39, 39) 0%, rgb(202, 206, 203) 33%, rgb(70, 71, 70) 100%);
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .btn a{
+        display: block;
+        width: 100%;
+        color: white;
+        text-decoration:none ;
+        font-size: 15px;
+        text-shadow: 3px 3px 7px black;
+    }
+    .btn:hover{
+        background: linear-gradient(90deg, rgb(72, 73, 72) 0%, rgb(226, 228, 226) 33%, rgb(123, 124, 123) 100%);
+    }
+    .containerFooter{
+        width: 100%;
+    }
+    .pie{
+        width: 100%;
+    }
+    .pie img{
+        width: 100%;
+    }
+    .txtFooter-conten{
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        max-width: 350px;
+    }
+    .desarrolladores_content{
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+    .desarrolladores_content .img-cont-dev{
+        background-color: black;
+        width: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .desarrolladores_content .img-cont-dev img{
+       width: 100%;
+      
+    }
+    .txt-dev{
+        font-family: 'Poor Story', cursive;
+        font-size: 20px;
+        text-shadow: 3px 3px 7px black;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .desarrollador_item p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .redes-conten{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .redes-conten .items i{
+        margin: 0px 10px;
+    }
+
+    .ffo{
+        width: 100%;
+    }
+    form{
+        width: 80%;
+        
+    }
+    form  input , textarea {
+        width: 100%;
+    }
+}
+
+/* ------ desktop------- */
+/* ------ desktop------- */
+/* ------ desktop------- */
+/* ------ desktop------- */
+/* ------ desktop------- */
+/* ------ desktop------- */
+/* ------ desktop------- */
+/* ------ desktop------- */
+
+@media (min-width: 768px) and (max-width: 2000px){
+   
+    .iconos{
+        display: none;
+    }
+    .menu ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding: 20px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: rgb(141, 140, 140);
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    .menu ul li a:hover{
+        color: rgb(116, 116, 116);
+        text-decoration: overline;
+    }
+    .title{
+        margin: 20px auto;
+        font-size: 50px
+    }
+
+    .cuadrantes{
+        width:100%;
+        padding:50px;
+        background-color: black;
+    }
+    .cuadrant{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .movilcuado{
+        display: none;
+    }
+    .personajes{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        
+        padding: 20px 40px;
+    }
+    .peson_item{
+       
+        text-align: center;
+        margin: 10px;
+        box-shadow: 3px 3px 8px  rgb(104, 103, 103);
+        /* border: solid 1px red; */
+    }
+    .peson_item img{
+        display: block;
+        margin: 30px auto;
+        width: 150px;
+        height: 150px;
+    }
+    .txtPerson{
+        text-align: justify;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .tittle-personajes{
+        color: antiquewhite;
+        text-align: center;
+        font-size: 35px;
+        margin: 30px;
+        font-family: 'Poor Story', cursive;
+    }
+    .name-person{
+        font-family: 'Poor Story', cursive;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .heroFinal{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0ch;
+        padding: 20px;
+    }
+    .heroFinal .img img{
+       width: 25%;
+       display: block;
+       margin: 0 auto;
+    }
+    .txt_HF{
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 3px 3px 7px black;
+        font-weight: 900;
+        letter-spacing: 5px;
+        color: aliceblue;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .btn{
+        margin: 15px auto;
+        width: 20%;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 20px;
+        background: linear-gradient(90deg, rgb(35, 36, 35) 0%, rgb(200, 201, 200) 33%, rgb(66, 66, 66) 100%);
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .btn a{
+        display: block;
+        width: 100%;
+        color: white;
+        text-decoration:none ;
+        font-size: 25px;
+        text-shadow: 3px 3px 7px black;
+    }
+    .btn:hover{
+        background: linear-gradient(90deg, rgb(80, 80, 79) 0%, rgb(228, 230, 229) 33%, rgb(130, 131, 130) 100%);
+    }
+    .containerFooter{
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .imgHeroPie-conten img{
+        width: 350px;
+    }
+    .txtFooter{
+        font-size: 20px;
+    }
+    .desarrolladores_content{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+    .img-cont-dev{
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 10px auto;
+    }
+    .desarrollador_item{
+     padding: 20px;
+     width: 100%;
+    }
+    .desarrollador_item img{
+        width: 100%;
+        height: 100%;
+    }
+    .txt-dev{
+        font-family: 'Poor Story', cursive;
+        font-size: 20px;
+        text-shadow: 3px 3px 7px black;
+        margin-bottom: 10px;
+    }
+    .desarrollador_item p{
+        font-size: 15px
+    }
+    .redes-conten{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .redes-conten .items i{
+        margin: 0px 10px;
+    }
+}
