@@ -3,13 +3,13 @@
 const CACHE_NAME = 'v1_cache_fasrag';
 //archivos a guardar
 var urlsToChache=[
-    'https://fasragcorporation.github.io/',
-    'https://fasragcorporation.github.io/index.html',
-    'https://fasragcorporation.github.io/sw.js',
-    'https://fasragcorporation.github.io/jquery.js',
-    'https://fasragcorporation.github.io/manifest.json',
-    'https://fasragcorporation.github.io/css/slider.css',
-    'https://fasragcorporation.github.io/css/styles.css',
+    'https://fasragadc.github.io/',
+    'https://fasragadc.github.io/index.html',
+    'https://fasragadc.github.io/sw.js',
+    'hhttps://fasragadc.github.io/jquery.js',
+    'https://fasragadc.github.io/manifest.json',
+    'https://fasragadc.github.io/css/slider.css',
+    'https://fasragadc.github.io/css/styles.css',
     'https://fasragcorporation.github.io/js/nav-menu.js',
 /*     'https://hardworld089.github.io/img/',
  */];

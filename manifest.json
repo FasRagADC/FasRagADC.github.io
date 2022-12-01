@@ -1,10 +1,10 @@
 {
     "name": "FasRag Corporation",
     "short_name": "FasRag",
-    "start_url": "https://fasragcorporation.github.io/index.html",
+    "start_url": "https://fasragadc.github.io/index.html",
     "description": "PWA FasRag",
     "lang": "en-US",
-    "scope": "https://fasragcorporation.github.io/index.html",
+    "scope": "https://fasragadc.github.io/index.html",
     "display": "standalone",
     "icons": [{
     "src": "img/Carrucel1.jpeg",
